@@ -80,7 +80,7 @@ void loop()
     
     //Time interval between the measurements
     //The measurement takes about 10 seconds  
-    delay(15000);         
+    delay(29000);         
 }
 void tempLoop()
 {
@@ -211,8 +211,6 @@ void lightLoop()
             myFile.print("E;");
           }
    myFile.close();
-   Serial.print(event.light);
-   Serial.print("    ");
    Serial.println("Ljus [DONE]");
     }
     else 
